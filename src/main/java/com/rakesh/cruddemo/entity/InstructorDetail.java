@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 
 @Entity
 @Table(name = "instructor_detail")
-public class InstructorDetails {
+public class InstructorDetail {
 
     // annotate the class as an entity and map to db table
 
@@ -29,10 +29,10 @@ public class InstructorDetails {
     @Column(name = "hobby")
     private String hobby;
 
-    public InstructorDetails(){
+    public InstructorDetail(){
 
     }
-    public InstructorDetails(String youtubeChannelName, String hobby) {
+    public InstructorDetail(String youtubeChannelName, String hobby) {
         this.youtubeChannelName = youtubeChannelName;
         this.hobby = hobby;
     }
