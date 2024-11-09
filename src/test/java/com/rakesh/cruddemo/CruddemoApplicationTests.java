@@ -1,4 +1,4 @@
-package com.rakesh.example.cruddemo;
+package com.rakesh.cruddemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
